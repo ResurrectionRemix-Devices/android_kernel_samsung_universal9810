@@ -13,6 +13,8 @@
  *
  */
 #include "ssp.h"
+#pragma GCC diagnostic ignored "-Wmisleading-indentation"
+
 
 #define LIMIT_DELAY_CNT		200
 #define RECEIVEBUFFERSIZE	12

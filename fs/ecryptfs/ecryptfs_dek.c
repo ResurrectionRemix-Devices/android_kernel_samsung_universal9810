@@ -16,6 +16,7 @@
 #include <linux/pagemap.h>
 #include <linux/crypto.h>
 #include <asm/unaligned.h>
+#pragma GCC diagnostic ignored "-Wmisleading-indentation"
 
 #include <sdp/fs_handler.h>
 #include "ecryptfs_dek.h"

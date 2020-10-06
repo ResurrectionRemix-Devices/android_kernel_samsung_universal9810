@@ -59,6 +59,7 @@
 #include <linux/file.h>
 #include <linux/configfs.h>
 #include <linux/usb/composite.h>
+#pragma GCC diagnostic ignored "-Wmisleading-indentation"
 
 /* platform specific definitions */
 /* ex) #define __ANDROID__ */

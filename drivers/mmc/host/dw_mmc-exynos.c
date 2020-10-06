@@ -23,6 +23,7 @@
 #include <linux/smc.h>
 #include <linux/sec_sysfs.h>
 
+#pragma GCC diagnostic ignored "-Wmisleading-indentation"
 #include "dw_mmc.h"
 #include "dw_mmc-pltfm.h"
 #include "dw_mmc-exynos.h"

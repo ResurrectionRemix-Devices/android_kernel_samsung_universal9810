@@ -53,6 +53,7 @@
 #include "unipro.h"
 #include "ufs-exynos.h"
 #include "ufs_quirks.h"
+#pragma GCC diagnostic ignored "-Wfortify-source"
 
 #define UFSHCD_ENABLE_INTRS	(UTP_TRANSFER_REQ_COMPL |\
 				 UTP_TASK_REQ_COMPL |\

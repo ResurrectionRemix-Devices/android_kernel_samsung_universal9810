@@ -14,6 +14,7 @@
  */
 
 #include "ssp.h"
+#pragma GCC diagnostic ignored "-Wmisleading-indentation"
 
 
 bool ssp_dbg;

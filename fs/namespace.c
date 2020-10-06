@@ -26,6 +26,7 @@
 #include <linux/task_work.h>
 #include <linux/slub_def.h>
 #include <linux/fslog.h>
+#pragma GCC diagnostic ignored "-Wmisleading-indentation"
 #include "pnode.h"
 #include "internal.h"
 

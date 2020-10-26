@@ -11697,7 +11697,7 @@
 		interrupt-names = "error", "boot_completed", "ipc_received", "voice_triggered", "trigger_period_elapsed", "record_period_elapsed", "debuglog_bufzero", "debuglog_bufone", "audio_dump", "log_dump";
 		status = "okay";
 		lpsd-gain = <0x0>;
-		dmic-gain = <0x0>;
+		dmic-gain = <0x1>;
 		amic-gain = <0x4>;
 		linux,phandle = <0x17f>;
 		phandle = <0x17f>;
@@ -13742,7 +13742,7 @@
 		fuelgauge,using_temp_compensation;
 		fuelgauge,low_temp_limit = <0x64>;
 		fuelgauge,using_hw_vempty;
-		fuelgauge,v_empty = <0xa7e2>;
+		fuelgauge,v_empty = <0xa05f>;
 		fuelgauge,v_empty_origin = <0x7d54>;
 		fuelgauge,sw_v_empty_voltage = <0xc80>;
 		fuelgauge,sw_v_empty_voltage_cisd = <0xc1c>;
